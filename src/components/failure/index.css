@@ -1,0 +1,42 @@
+.home-failure {
+  min-height: 70vh;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.home-failure-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-failure-content h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.home-failure-content p {
+  color: #b3b3b3;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.home-failure-content button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home-failure-content button:hover {
+  background-color: #e6e6e6;
+}

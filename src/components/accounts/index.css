@@ -1,0 +1,177 @@
+.account-page {
+  min-height: 100vh;
+
+  background-color: #141414;
+
+  color: white;
+
+  padding: 50px 60px;
+}
+
+.account-container {
+  max-width: 900px;
+
+  margin: 0 auto;
+}
+
+.account-title {
+  margin-bottom: 35px;
+
+  font-size: 32px;
+
+  font-weight: 500;
+}
+
+/* PROFILE */
+
+.profile-section {
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 25px;
+
+  background-color: #222;
+
+  border-radius: 6px;
+
+  margin-bottom: 30px;
+}
+
+.profile-icon {
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #333;
+
+  border-radius: 5px;
+
+  font-size: 35px;
+}
+
+.profile-details h2 {
+  margin: 0 0 8px;
+
+  font-size: 22px;
+}
+
+.profile-details p {
+  margin: 0;
+
+  color: #999;
+
+  font-size: 14px;
+}
+
+/* ACCOUNT SECTIONS */
+
+.account-section {
+  margin-bottom: 30px;
+
+  padding: 25px;
+
+  background-color: #222;
+
+  border-radius: 6px;
+}
+
+.account-section h3 {
+  margin: 0 0 20px;
+
+  color: #e50914;
+
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+/* ACCOUNT ITEMS */
+
+.account-item,
+.setting-item {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #333;
+
+  font-size: 14px;
+}
+
+.account-item:last-child,
+.setting-item:last-child {
+  border-bottom: none;
+}
+
+.account-item span:first-child,
+.setting-item span:first-child {
+  color: #999;
+}
+
+.account-item span:last-child,
+.setting-item span:last-child {
+  color: white;
+}
+
+/* LOGOUT */
+
+.logout-button {
+  padding: 12px 30px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  background-color: #e50914;
+
+  color: white;
+
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #f40612;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+
+  .account-page {
+    padding: 30px 20px;
+  }
+
+  .account-title {
+    font-size: 26px;
+  }
+
+  .profile-section {
+    padding: 20px;
+  }
+
+  .profile-icon {
+    width: 55px;
+    height: 55px;
+
+    font-size: 28px;
+  }
+
+  .profile-details h2 {
+    font-size: 18px;
+  }
+
+  .account-section {
+    padding: 20px;
+  }
+}

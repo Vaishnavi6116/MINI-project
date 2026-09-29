@@ -1,0 +1,59 @@
+.something-wrong {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #141414;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+.something-wrong-content {
+  max-width: 450px;
+}
+
+.something-wrong-content h1 {
+  margin: 0 0 15px;
+
+  font-size: 30px;
+
+  font-weight: 500;
+}
+
+.something-wrong-content p {
+  margin: 0;
+
+  color: #999;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+.try-again-button {
+  margin-top: 25px;
+
+  padding: 11px 25px;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: #e50914;
+
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.try-again-button:hover {
+  background-color: #f40612;
+}

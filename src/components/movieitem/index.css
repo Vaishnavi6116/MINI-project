@@ -1,0 +1,47 @@
+.movie-item {
+  width: 180px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+
+/* Movie poster */
+
+.movie-poster {
+  width: 180px;
+  height: 250px;
+
+  object-fit: cover;
+
+  display: block;
+
+  border-radius: 5px;
+
+  background-color: #333;
+}
+
+
+/* Movie details */
+
+.movie-details {
+  padding-top: 8px;
+}
+
+.movie-details h3 {
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.movie-details p {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+
+/* Hover effect */
+
+.movie-item:hover {
+  transform: scale(1.05);
+}

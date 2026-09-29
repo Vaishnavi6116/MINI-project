@@ -1,0 +1,23 @@
+.subscribe-container {
+  min-height: 100vh;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-container h1 {
+  color: #e50914;
+  font-size: 40px;
+}
+
+.subscribe-container button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
